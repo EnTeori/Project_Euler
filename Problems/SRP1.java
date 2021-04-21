@@ -10,14 +10,18 @@ public class SRP1 {
 
         int multiples_of_five = 0;
 
-        for (int i = 3; i < 20; i++) {
+        for (int i = 3; i < 30; i = i + 3) {
             multiples_of_three = multiples_of_three + i;
-            i = i + 2;
+
         }
 
-        for (int j = 5; j < 20; j++) {
-            multiples_of_five = multiples_of_five + j;
-            j = j + 4;
+        for (int j = 5; j < 25; j = j + 15) {
+
+            for (int k = j; k < j + 6; k = k + 5) {
+
+                multiples_of_five = multiples_of_five + k;
+            }
+
         }
 
         sum = multiples_of_three + multiples_of_five;
