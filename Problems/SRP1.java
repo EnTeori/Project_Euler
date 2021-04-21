@@ -10,12 +10,12 @@ public class SRP1 {
 
         int multiples_of_five = 0;
 
-        for (int i = 3; i < 30; i = i + 3) {
+        for (int i = 3; i < 1000; i = i + 3) {
             multiples_of_three = multiples_of_three + i;
 
         }
 
-        for (int j = 5; j < 25; j = j + 15) {
+        for (int j = 5; j < 1000; j = j + 15) {
 
             for (int k = j; k < j + 6; k = k + 5) {
 
