@@ -24,7 +24,7 @@ public class SRP1 {
 
         }
 
-        sum = multiples_of_three + multiples_of_five;
+        sum = multiples_of_three + multiples_of_five - 1000;
 
         System.out.println(sum);
     }
